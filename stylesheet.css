@@ -1,0 +1,27 @@
+
+.navigation {
+    list-style-type: none;
+    display: inline-block;  
+    margin: 20px; 
+	padding: 20px;
+	background-color: #2FBC64;
+	border-style: inset;
+}
+
+body {
+	font-family: "Garamond", serif;
+	background-color: #F0D499;
+}
+
+body.low-level p {
+	border-style: dotted;
+}
+
+body.git ol {
+	border-style: inset;
+}
+
+p {
+	margin: 20px;
+	padding: 10px;
+}

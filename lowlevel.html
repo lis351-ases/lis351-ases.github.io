@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Low Level Basics</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+</style>
+<script src=""></script>
+
+	<body class="low-level">
+
+		<header>
+			<nav>
+				<ul>
+					<li class="navigation"><a href="index.html">Main Page</a></li>
+					<li class="navigation"><a href="environment.html">Coding Environment</a></li>
+					<li class="navigation"><a href="githubguide.html">Using GitHub</a></li>
+					<li class="navigation"><a href="DSA.html">DSA Basics</a></li>
+					<li class="navigation"><a href="discrete.html">Discrete Math Basics</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<h3>C is a useful low level language that you will likely encounter while studying CS. Here's some info about it:</h3>
+		
+		<img src="https://upload.wikimedia.org/wikipedia/commons/5/55/The_C_Programming_Language_logo_with_Helvetica_LT_Black_and_CG_Times_Bold.svg" style="width: 250px; height: 250px;" alt="The cover of the C programming language book">
+		<br>
+		Image: The C Programming Language logo with Helvetica LT Black and CG Times Bold by Cobaiahackers at <a href="https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo_with_Helvetica_LT_Black_and_CG_Times_Bold.svg">https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo_with_Helvetica_LT_Black_and_CG_Times_Bold.svg</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+		
+		<p>
+		When you want to create variables on the heap(dynamically allocated), then you have to allocate the memory you are going to use yourself. Make sure to free up any memory
+		you request with allocator methods like malloc(), otherwise you'll end up with memory leaks. A memory leak is basically like going out to a restaurant, making a mess at your table,
+		and leaving without cleaning it up. When you're done eating, someone else has to sit there, so you don't want to leave a mess. Similarly, when your program is done, you don't want to leave
+		all those values you were using in memory, as other programs also have to use that same heap memory. 
+		</p>
+		
+		<p>
+		Pointers are a infamous problem area for many people learning C. To avoid confusion and overcomplicating things, keep in mind that a pointer is just a variable that
+		stores the address of somewhere else in memory. You can access what's at that address by dereferencing the pointer to it. 
+		</p>
+
+	</body>
+
+</html>
